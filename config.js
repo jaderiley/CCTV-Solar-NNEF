@@ -27,8 +27,8 @@ const CONFIG = {
 
   // ─── PAGE META / SEO ─────────────────────────────────────
   meta: {
-    title:       "CCTV Solar NNEF — Locksmith in johannesburg",
-    description: "CCTV Solar NNEF provides professional locksmith in Johannesburg. 3 Google reviews. Call for a quote today.",
+    title:       "CCTV Solar NNEF — CCTV & solar installations in Johannesburg",
+    description: "CCTV Solar NNEF provides professional CCTV security systems and solar power installations in Johannesburg. 3 Google reviews. Call for a quote today.",
     url:         ""  // Live domain — e.g. https://example.co.za (activates canonical + WebSite schema)
   },
 
@@ -40,120 +40,120 @@ const CONFIG = {
 
   // ─── CONTENT ─────────────────────────────────────────────
   content: {
-    eyebrow:    "Locksmith · Johannesburg & surrounds",
-    heroTitle:  "Locked out? <em>We are on our way.</em>",
-    heroLead:   "CCTV Solar NNEF provides fast, professional locksmith services across Johannesburg. Emergency lockouts, key cutting, lock installation and safe opening.",
+    eyebrow:    "CCTV & solar · Johannesburg & surrounds",
+    heroTitle:  "See everything. <em>Never lose power again.</em>",
+    heroLead:   "CCTV Solar NNEF installs CCTV security systems and solar power solutions for homes and businesses across Johannesburg — reliable surveillance, backup power and load-shedding-proof installations.",
 
     googleRating: "5",
     reviewsCount: "3",
-    featuredQuote: "Locked out at 9pm — they answered immediately, arrived in 20 minutes and had me inside in five. Excellent service.",
+    featuredQuote: "Installed CCTV around our whole property and a solar backup system in the same week. Clean wiring, clear app setup and it just works.",
     featuredQuoteAuthor: "— Thandi M., Google review",
 
-    trustSignals: ["Emergency lockouts", "Key cutting", "Lock upgrades", "24/7 available"],
+    trustSignals: ["CCTV installation", "Solar & backup power", "Remote monitoring", "24/7 emergency callouts"],
 
     // ─── SERVICES ──────────────────────────────────────────
-    servicesTitle: "Professional locksmith services.",
-    servicesLead:  "Emergency lockouts, key cutting and lock installation — honest advice, fair pricing.",
+    servicesTitle: "CCTV and solar, installed properly.",
+    servicesLead:  "Security cameras and power systems that actually work when you need them — installed and set up correctly the first time.",
     services: [
       {
+        icon:  "circuit",
+        title: "CCTV camera installation",
+        desc:  "Full camera systems for homes and businesses — positioned correctly, wired neatly and set up with remote viewing on your phone."
+      },
+      {
+        icon:  "bolt",
+        title: "Solar power systems",
+        desc:  "Solar panel, inverter and battery installations sized to your household or business so load-shedding stops being a problem."
+      },
+      {
+        icon:  "gauge",
+        title: "Backup power & inverters",
+        desc:  "Standalone inverter and battery backup for essential circuits — lights, Wi-Fi and security stay on when the power goes out."
+      },
+      {
+        icon:  "shield",
+        title: "Alarm & security integration",
+        desc:  "CCTV linked with alarm systems and electric fencing so everything reports to one app and one control panel."
+      },
+      {
         icon:  "key",
-        title: "Emergency lockouts",
-        desc:  "Locked out of your house, car, office or safe — we respond quickly and open it without damaging your lock where possible."
-      },
-      {
-        icon:  "door",
-        title: "Key cutting & duplication",
-        desc:  "House keys, security keys and high-security keys cut on the spot. Walk-ins welcome."
-      },
-      {
-        icon:  "padlock",
-        title: "Lock installation & upgrades",
-        desc:  "New locks and security upgrades installed and correctly fitted. We advise on what is actually worth spending."
-      },
-      {
-        icon:  "safe",
-        title: "Safe opening & servicing",
-        desc:  "Forgot the combination? Inherited a safe? We open and service most domestic and small commercial safes."
-      },
-      {
-        icon:  "keyring",
-        title: "Master key systems",
-        desc:  "One key for multiple doors — designed and cut for homes, offices and complexes."
+        title: "Access control & gate automation",
+        desc:  "Gate motors, intercoms and access control fitted and integrated with your existing security setup."
       },
       {
         icon:  "wrench",
-        title: "Lock repairs after break-ins",
-        desc:  "Same-day repairs after a forced entry. We carry common stock so you are not left with a broken door overnight."
+        title: "System maintenance & repairs",
+        desc:  "Faulty cameras, dead batteries or unresponsive systems diagnosed and repaired — we service what we install and what others left behind."
       },
     ],
 
     // ─── WORK GALLERY ──────────────────────────────────────
     galleryTitle: "The work, up close.",
-    galleryLead:  "A look at the kind of work we handle every week.",
+    galleryLead:  "A look at the kind of installations we handle every week.",
     gallery: [
       {
         image:   "images/work-1.jpg",
         art:     "lockCylinderPick",
-        fig:     "01 — Emergency lockouts",
-        title:   "Opened without damage",
-        caption: "Most locked doors opened non-destructively — no drilling unless the lock is damaged or seized."
+        fig:     "01 — CCTV installation",
+        title:   "Positioned and wired properly",
+        caption: "Cameras placed for full coverage with neat cable runs and a setup that's actually usable from your phone."
       },
       {
         image:   "images/work-2.jpg",
         art:     "lockCylinderPick",
-        fig:     "02 — Key cutting",
-        title:   "Cut to the original",
-        caption: "Keys traced and cut on calibrated machines so duplicates match the original bitting precisely."
+        fig:     "02 — Solar power",
+        title:   "Sized to your usage",
+        caption: "Panels, inverter and battery capacity matched to real household or business consumption — not oversold, not undersized."
       },
       {
         image:   "images/work-3.jpg",
         art:     "lockCylinderPick",
-        fig:     "03 — Lock upgrades",
-        title:   "Anti-pick, anti-drill",
-        caption: "Standard cylinders replaced with high-security alternatives — often the best value security upgrade available."
+        fig:     "03 — Backup power",
+        title:   "Stays on when the grid doesn't",
+        caption: "Essential circuits wired to backup power so lights, Wi-Fi and security keep running straight through an outage."
       },
       {
         image:   "images/work-4.jpg",
         art:     "lockCylinderPick",
-        fig:     "04 — Master key systems",
-        title:   "One key, multiple doors",
-        caption: "Master key system designed so one key opens all doors while each room keeps its own individual key."
+        fig:     "04 — Alarm integration",
+        title:   "Everything in one app",
+        caption: "CCTV, alarm and electric fencing linked together so the whole property reports to a single control point."
       },
       {
         image:   "images/work-5.jpg",
         art:     "lockCylinderPick",
-        fig:     "05 — Safe opening",
-        title:   "Opened and serviced",
-        caption: "Dial mechanisms and bolt-work diagnosed before anything else is tried — safe opened without damage where possible."
+        fig:     "05 — Maintenance & repairs",
+        title:   "Fixed, not replaced unnecessarily",
+        caption: "Existing systems diagnosed properly — often a repair or a battery swap solves it, not a full reinstall."
       },
     ],
 
     // ─── PHOTO BAND ────────────────────────────────────────
     band: {
       image: "images/band.jpg",
-      alt:   "CCTV Solar NNEF team at work in Johannesburg",
-      text:  "Fast, reliable locksmith service — residential and emergency."
+      alt:   "CCTV Solar NNEF technician installing a camera system in Johannesburg",
+      text:  "CCTV and solar installations that hold up — security and power you can rely on."
     },
 
     // ─── AREAS BLURB ───────────────────────────────────────
-    areasTitle: "Based in Johannesburg. Serving the wider area.",
-    areasLead:  "We cover Johannesburg CBD, Parktown, Melville and the surrounding suburbs. Emergency response available throughout the area.",
-    areasNote:  "Outside this area? Call anyway — we cover most of greater Johannesburg for emergencies.",
+    areasTitle: "Based in Johannesburg. Installing across the wider area.",
+    areasLead:  "We install in Johannesburg CBD, Parktown, Melville and the surrounding suburbs. Site visits and quotes available throughout the area.",
+    areasNote:  "Outside this area? Call anyway — we cover most of greater Johannesburg.",
 
     // ─── WHY US ────────────────────────────────────────────
-    whyTitle: "Why people call us first.",
+    whyTitle: "Why people trust us with security and power.",
     why: [
       {
         title: "We answer the phone",
-        desc:  "Lockouts do not keep office hours. We are available around the clock and actually pick up."
+        desc:  "Security and power issues do not keep office hours. We are available around the clock for emergencies and actually pick up."
       },
       {
-        title: "Price before we start",
-        desc:  "We quote on the phone where possible and confirm on site before touching your lock."
+        title: "Sized and quoted properly",
+        desc:  "We assess your actual needs on site and quote accordingly — no oversized solar systems or camera counts you don't need."
       },
       {
-        title: "Skilled, experienced locksmiths",
-        desc:  "Not a franchised callout centre — skilled locksmiths who have actually done this work for years."
+        title: "Clean, professional installs",
+        desc:  "Neat wiring, correctly positioned cameras and panels, and a setup that's actually easy to use once we leave."
       },
     ],
 
@@ -161,19 +161,19 @@ const CONFIG = {
     reviewsTitle: "From 3 verified Google reviews.",
     reviews: [
       {
-        body:   "Locked out at 9pm — they answered immediately, arrived in 20 minutes and had me inside in five. Excellent service.",
+        body:   "Installed CCTV around our whole property and a solar backup system in the same week. Clean wiring, clear app setup and it just works.",
         name:   "Thandi M.",
         stars:  5,
         source: "Google"
       },
       {
-        body:   "New lock installed after a break-in. Same day, quality lock, fair price. Would definitely recommend.",
+        body:   "Solar and inverter installed after constant load-shedding frustration. Sized correctly and explained clearly. Very happy.",
         name:   "Peter H.",
         stars:  5,
         source: "Google"
       },
       {
-        body:   "Key cut for an old lock with no original to copy from — decoded it on site and cut a perfect key. Impressed.",
+        body:   "Fixed a CCTV system another company botched — found the actual fault, repaired it properly and didn't oversell a replacement.",
         name:   "Kim S.",
         stars:  5,
         source: "Google"
@@ -181,34 +181,34 @@ const CONFIG = {
     ],
 
     // ─── FAQ ────────────────────────────────────────────────
-    faqTitle: "Locksmith questions.",
-    faqLead:  "What most people ask before calling.",
+    faqTitle: "CCTV & solar questions.",
+    faqLead:  "What most people ask before installing.",
     faq: [
       {
-        q: "How quickly can you get to me?",
-        a: "Response time depends on your location and time of day, but we aim to be with you within 30–45 minutes for emergencies in our area."
+        q: "How many cameras do I actually need?",
+        a: "Depends on your property layout — we assess on site and recommend coverage for entry points and blind spots rather than overselling cameras you don't need."
       },
       {
-        q: "Will you have to break or drill my lock?",
-        a: "Not usually. Most lockouts can be opened non-destructively. Drilling is a last resort and we will always explain why before doing it."
+        q: "Can I view my cameras remotely?",
+        a: "Yes — systems are set up with a phone app so you can view live and recorded footage from anywhere."
       },
       {
-        q: "Is there a call-out fee?",
-        a: "We quote on the phone where possible and confirm on site before starting. No surprise charges."
+        q: "What size solar system do I need?",
+        a: "We work out your actual usage and recommend a system sized to keep your essentials running, with options to scale up later."
       },
       {
-        q: "Can you cut a key without the original?",
-        a: "In many cases yes — we can decode the lock on site and cut a new key from that."
+        q: "Will my backup power run my whole house?",
+        a: "A full system can, but most clients start with essential circuits — lights, Wi-Fi, security and fridge — which is more affordable and still solves load-shedding."
       },
       {
-        q: "Can you open a safe I have inherited with no combination?",
-        a: "Often yes. We start by diagnosing the mechanism before drilling — most domestic safes can be opened without damage."
+        q: "Do you service equipment another company installed?",
+        a: "Yes — we diagnose and repair existing CCTV, alarm and solar installations, not just our own."
       },
     ],
 
     // ─── CONTACT ───────────────────────────────────────────
-    contactTitle: "Tell us what is happened.",
-    contactLead:  "Send through the details and we will advise on how quickly we can get to you.",
-    contactPlaceholder: "e.g. locked out of house in Randburg, key broken in lock, need new lock after break-in"
+    contactTitle: "Tell us what you need covered.",
+    contactLead:  "Send through your property size and what you're after and we will advise on the right setup.",
+    contactPlaceholder: "e.g. 4-camera CCTV system, solar backup for load-shedding, existing system needs repair"
   }
 };
